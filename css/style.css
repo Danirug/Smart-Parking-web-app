@@ -1,0 +1,23 @@
+/* Smart Parking — shared styles */
+
+:root {
+  --sp-primary: #0d6efd;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+
+/* Status badges for parking spots */
+.badge-occupied {
+  background-color: #dc3545;
+}
+
+.badge-available {
+  background-color: #198754;
+}
